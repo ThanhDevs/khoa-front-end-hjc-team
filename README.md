@@ -27,6 +27,7 @@ HTML được viết tắt từ câu tiếng anh (HyperText Markup Language). L�
     + aside
     + article
     + figure, figcaption
+    + ... 
 
 
 
@@ -50,6 +51,7 @@ Là một ngôn ngữ được dùng để miên tả lại cách trình bày c�
     - clear (none | left | right | both)
     - visibility (visible | hidden | collapse)
     - overflow (hidden | visible | scroll | auto): overflow-x, overflow-y
+    - ...
 
 
 #### Dimension (Kích thước)
@@ -60,6 +62,7 @@ Là một ngôn ngữ được dùng để miên tả lại cách trình bày c�
     - max-height | min-height
     - margin
     - padding (lưu ý: trừ các thộc tính: table-row-group | table-header-group | table-header-group | table-column-group | table-row padding sẽ không có hiểu lực)
+
 
 #### Background (Nền)
 
@@ -88,7 +91,7 @@ Là một ngôn ngữ được dùng để miên tả lại cách trình bày c�
     - tab-size 
     - white-space
 
-#### List
+#### List (Danh sách)
     
     - list-style
     - list-style-image
@@ -110,7 +113,8 @@ Là một ngôn ngữ được dùng để miên tả lại cách trình bày c�
     - resize 
     - ...
 
-####　Multi-column (Nhiều cột)
+
+### Multi-column (Nhiều cột)
 
     - columns: column-width column-count
     - column-gap
@@ -146,6 +150,7 @@ Là một ngôn ngữ được dùng để miên tả lại cách trình bày c�
 #### Liên quan đến hiệu ứng và Responsive
 
     #### Transform (Sự biến đổi)
+
 
     #### Transition (Sự chuyển tiếp)
 
