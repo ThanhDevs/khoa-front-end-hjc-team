@@ -456,9 +456,9 @@ h6 a:hover { text-decoration: none }
 
 /* Header 
 -------------------------------------------------------------- */
-#site-header {  }
-
+#site-header { background-color: #fff; }
 #site-logo { float: left; }
+#site-navigation-wrap {  }
 
 /* Header Aside Content */
 #header-aside { float: right; }
@@ -478,3 +478,28 @@ h6 a:hover { text-decoration: none }
 #header-aside .header-aside-info .inner .info-wrap .info-c .subtitle { color: #3e4140; font-family: "Poppins", sans-serif; }
 
 #header-aside .header-aside-btn a { font-size: 14px; color: #fff; font-family: "Poppins", sans-serif; background-color: #3065b8; display: inline-block; padding: 0 31px; line-height: 50px; border-radius: 5px; }
+
+/* Btn Menu */
+.btn-menu { display: none; width: 26px; height: 26px; background-color: transparent; float: right; position: relative; }
+.btn-menu span { width: 100%; height: 2px; background-color: #3065B8; position: absolute; top: 50%; left: 0; }
+.btn-menu::after,
+.btn-menu::before { content: ""; width: 100%; height: 2px; background-color: #3065B8; position: absolute; left: 0; }
+.btn-menu::after { top: 0; }
+.btn-menu::before { bottom: 0; }
+
+/* Main Menu */
+#main-nav { float: left; }
+#main-nav ul { margin: 0; list-style: none; }
+#main-nav ul li { position: relative; font-family: "Poppins", sans-serif; }
+#main-nav > ul > li { display: inline-block; }
+#main-nav > ul > li > a { color: #3e4140; padding: 0 15px; position: relative; display: inline-block; }
+#main-nav > ul > li.has-submenu > a::after { content: "\e9f8"; font-family: "hcjticons"; position: absolute; top: 0; right: 0; }
+
+/* ul thứ hai trở đi */
+#main-nav ul ul { width: 200px; background-color: #fff; position: absolute; top: 100%; left: 0; box-shadow: 0 2px 10px rgba(6, 6, 6, 0.3); }
+#main-nav ul ul li { padding: 0; }
+#main-nav ul ul li a { padding: 0 15px; color: #3e4140; font-size: 13px; display: block; } 
+#main-nav ul ul li:hover > a { background-color: #3065b8; color: #fff; }
+
+/* ul thứ trở đi */
+#main-nav ul ul ul { top: 0; left: 100%; }
